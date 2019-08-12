@@ -12,7 +12,7 @@ links = "openssl"
 build = "build/main.rs"
 
 [features]
-vendored = ['openssl-src']
+default = ['openssl-src']
 
 [dependencies]
 libc = "0.2"
